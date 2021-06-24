@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teste de formulário</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <div class="testbox">
+      <form action="/">
+        <div class="banner"></div>
+        <div class="first-title"><h1>FOMULÁRIO</h1></div>
+        <div class="colums">
+          <div class="item">
+            <label for="fname"> Nome<span>*</span></label>
+            <input id="fname" type="text" name="fname" required/>
+          </div>
+          <div class="item">
+            <label for="lname"> Sobrenome<span>*</span></label>
+            <input id="lname" type="text" name="lname" required/>
+          </div>
+          <div class="item">
+            <label for="state">País<span>*</span></label>
+            <input id="state" type="text"   name="state" required/>
+          </div>
+          <div class="item">
+            <label for="eaddress">Email<span>*</span></label>
+            <input id="eaddress" type="text"   name="eaddress" required/>
+          </div>
+          <div class="item">
+            <label for="phone">Telefone 01:<span>*</span></label>
+            <input id="phone" type="tel"   name="phone" required/>
+          </div>
+          <div class="item">
+            <label for="phone">Telefone 02:<span>*</span></label>
+            <input id="phone" type="tel"   name="phone" required/>
+          </div>
+        </div>
+        <div class="question">
+          <h2><label>Linguagem ou linguagens usadas:</label></h2>
+          <div class="question-answer">
+            <div>
+              <input type="checkbox" id="box_c" name="type"/>
+              <label for="box_c" class="checkbox"><span>C/C++</span></label>
+            </div>
+            <div>
+              <input  type="checkbox" id="box_java" name="type"/>
+              <label for="box_java" class="checkbox"><span>JAVA</span></label>
+            </div>
+            <div>
+              <input  type="checkbox" id="box_python" name="type"/>
+              <label for="box_python" class="checkbox"><span>PYTHON</span></label>
+            </div>
+            <div>
+              <input  type="checkbox" id="box_html_css" name="type"/>
+              <label for="box_html_css" class="checkbox"><span>HTML</span></label>
+            </div>
+            <div>
+              <input  type="checkbox" id="box_html_css" name="type"/>
+              <label for="box_html_css" class="checkbox"><span>CSS</span></label>
+            </div>
+            <div>
+              <input  type="checkbox" id="box_html_css" name="type"/>
+              <label for="box_html_css" class="checkbox"><span>JAVASCRIPT</span></label>
+            </div>
+            <div>
+              <input  type="checkbox" id="box_html_css" name="type"/>
+              <label for="box_html_css" class="checkbox"><span>PHP</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="btn-block">
+          <button class="button" type="submit" href="/"><span>Enviar</span></button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
