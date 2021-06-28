@@ -1,0 +1,45 @@
+body {
+	font: 20px, Arial, sans-serif;
+}
+
+.navbar {
+	padding-left: 5px;
+	background-color: #666999;
+	border-bottom: 2px solid;
+}
+
+.quem-sou-eu {
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(205,205,205,1) 100%);
+	border-bottom: 2px solid;
+}
+
+.padding {
+	padding: 50px;
+}
+
+.github {
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(205,205,205,1) 100%);
+	border-bottom: 2px solid;
+}
+
+.animation-zoom-in {
+	transition: transform .2s;
+}
+
+.animation-zoom-in:hover {
+	transform: scale(1.1);
+	animation-duration: 0.5s;
+}
+
+.contatos {
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(205,205,205,1) 100%);
+	border-bottom: 2px solid;	
+}
+
+.bg-footer {
+	background-color: #666999;
+	color: white;
+}
